@@ -27,3 +27,32 @@ Then start describing your problem by typing in the terminal window.
 
 The purpose of this project is to demonstrate and study library classes, such 
 as ArrayList, HashMap, HashSet, and Random.
+
+
+
+24) A map is An object that maps keys to values. its like i real life map its tell u where to look with keys to a specific value .u decide which key goes to which value
+a hashmap is like a map but permits  null values and the null key and is unsynchorized . i think its a like the map but more complicated for harder jobs.  
+
+25)i dont think i understand the question complictly . its almost every method like containskey, containsvalue, get,put like that . yes there is problem using the same types 
+
+26) use the size method
+
+27) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
