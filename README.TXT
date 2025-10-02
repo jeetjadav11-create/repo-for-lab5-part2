@@ -37,7 +37,18 @@ a hashmap is like a map but permits  null values and the null key and is unsynch
 
 26) use the size method
 
-27) 
+28) its replaces the old key
+
+29) they both work
+
+
+30) use the contains key method
+
+31) its ays null
+
+32) use the keyset method
+
+33)
 
 
 
