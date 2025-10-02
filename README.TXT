@@ -48,7 +48,15 @@ a hashmap is like a map but permits  null values and the null key and is unsynch
 
 32) use the keyset method
 
-33)
+34) an arry;ist is a list like 1-this 2-that 3-bat its numbered its like a an actuel list . a hashmap is like phonebook, in a waw arraylist is a hashmap that that fix key 1-2-3-4
+arraylist is ordered and allows duplicate hashmap dosent
+
+35)no diidernce except that they in array list is always numbers unlike hashmap which can be anything like string
+
+36)idk, cant find an answer
+ 
+
+37)
 
 
 
