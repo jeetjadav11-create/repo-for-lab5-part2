@@ -53,10 +53,16 @@ arraylist is ordered and allows duplicate hashmap dosent
 
 35)no diidernce except that they in array list is always numbers unlike hashmap which can be anything like string
 
-36)idk, cant find an answer
+36)yes , it will create empty strings , wating time and making things more complicated
  
 
-37)
+37) we did this together in class 
+
+41) cant find a way that not too compicated 
+
+42) i did it but not the way u wanted , but i also kept spme failed attemps 
+
+
 
 
 

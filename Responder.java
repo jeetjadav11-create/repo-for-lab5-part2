@@ -67,11 +67,16 @@ public class Responder
      */
     private void fillResponseMap()
     {
-        responseMap.put("crash", 
-                        """
+        String repCrash = """
                         Well, it never crashes on our system. It must have something
-                        to do with your system. Tell me more about your configuration.
+                        "to do with your system. Tell me more about your configuration.
                         """);
+        
+        
+        responseMap.put("crash", repCrash);
+        responseMap.put("crashes", repCrash);
+        responseMap.put("not working", repCrash);
+                        
         responseMap.put("crashes", 
                         """
                         Well, it never crashes on our system. It must have something
@@ -139,6 +144,20 @@ public class Responder
                         they simply won't sell... Stubborn people they are. Nothing we can
                         do about it, I'm afraid.
                         """);
+        responseMap.put("easy", 
+                        """
+                        Ahh! i know this stuff is soo easy 
+                        """);                
+        responseMap.put("programming", 
+                        """
+                        Ohh! i know somtimes its very annoying because of
+                        little grammer stuff
+                        """);                 
+        responseMap.put("hard", 
+                        """
+                        True , somtimes things like that can be very hard
+                        """);
+        responseMap.put("why", " i am not a god ,so i dont know ")                
     }
 
     /**
@@ -147,6 +166,9 @@ public class Responder
      */
     private void fillDefaultResponses()
     {
+        
+        defaultResponses.put("why", " i am not a god ,so i dont know ")
+        
         defaultResponses.add("That sounds odd. Could you describe that problem in more detail?");
         defaultResponses.add("""
                              No other customer has ever complained about this before.
@@ -172,7 +194,21 @@ public class Responder
     {
         // Pick a random number for the index in the default response list.
         // The number will be between 0 (inclusive) and the size of the list (exclusive).
-        int index = randomGenerator.nextInt(defaultResponses.size());
-        return defaultResponses.get(index);
+         
+        private int counter = 0;
+
+       private String pickDefaultResponse() {
+       while (counter < defaultResponses.size()) {
+        String response = defaultResponses.get(counter);
+        counter++;
+        return response;
+      }
+      // if counter reached the end, reset and start again
+      counter = 0;
+      return pickDefaultResponse();
+  
+
+         
+        
+      }
     }
-}
